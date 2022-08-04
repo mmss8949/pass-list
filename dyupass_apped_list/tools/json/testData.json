@@ -1,0 +1,231 @@
+{
+  "result": 1,
+  "msg": "",
+  "data": [
+    {
+      "list_data": {
+        "data": "111/1 ABY7568",
+        "app_no": "C2022040016",
+        "plate_number": "ABY7568",
+        "vehicle_category": "1",
+        "app_smye": "111",
+        "app_smty": "1",
+        "app_pass_type": "C",
+        "app_date": "2022-04-22 22:30:24",
+        "todo_flag": "1",
+        "todo_date": "2022-04-25 08:50:41",
+        "pay_flag": "0",
+        "pay_date": "",
+        "payment_start_date": "2022-06-01 00:00:00",
+        "payment_end_date": "2022-06-30 23:59:00",
+        "app_identity": "2",
+        "check_reason": [
+          {
+            "sno": 1,
+            "check_reason": "繳費領證時間：111年06月01日～111年06月30日24：00止。",
+            "contact_info": " ",
+            "check_date": "2022-04-22 22:30:24"
+          }
+        ]
+      },
+      "button": [
+        {
+          "type": "del_button",
+          "value": "刪除",
+          "app_no": "C2022040016",
+          "src": "./../kernel/dyupass_apped_list_save.php",
+          "rules": {
+            "vshow": 1,
+            "disabled": 0,
+            "orderfromleft": 1,
+            "delete_button_msg": 0
+          }
+        },
+        {
+          "type": "pay_button",
+          "value": "繳費單",
+          "payment_form": {
+            "app_no": "C2022040016",
+            "app_smye": "111",
+            "app_smty": "1",
+            "plate_number": "ABY7568",
+            "app_pass_type": "C",
+            "app_identity": "2",
+            "title": "場地清潔費3000元",
+            "price": "3000",
+            "button_value": "產生繳費單PDF",
+            "src": "./../kernel/dyupass_payfee.php"
+          },
+          "rules": {
+            "vshow": 1,
+            "disabled": 0,
+            "orderfromleft": 2,
+            "payment_button_msg": 0
+          }
+        },
+        {
+          "type": "reapp_button",
+          "value": "續辦",
+          "plate_number": "ABY7568",
+          "vehicle_category": "1",
+          "rules": {
+            "vshow": 1,
+            "disabled": 0,
+            "orderfromleft": 3,
+            "reapp_button_msg": 0
+          }
+        }
+      ]
+    },
+    {
+      "list_data": {
+        "data": "110/1 ABC7112",
+        "app_no": "M2021040200",
+        "plate_number": "ABC7112",
+        "vehicle_category": "2",
+        "app_smye": "110",
+        "app_smty": "1",
+        "app_pass_type": "M",
+        "app_date": "2021-04-19 11:24:50",
+        "todo_flag": 9,
+        "todo_date": "2021-05-14 16:29:14",
+        "pay_flag": "1",
+        "pay_date": "2021-06-30",
+        "payment_start_date": "2022-06-01 00:00:00",
+        "payment_end_date": "2022-06-30 23:59:00",
+        "app_identity": "2",
+        "check_reason": [
+          {
+            "sno": 1,
+            "check_reason": "繳費時間：110年06月01日至110年06月30日24：00止",
+            "contact_info": " ",
+            "check_date": "2021-04-19 11:24:50"
+          }
+        ]
+      },
+      "button": [
+        {
+          "type": "del_button",
+          "value": "刪除",
+          "app_no": "M2021040200",
+          "src": "./../kernel/dyupass_apped_list_save.php",
+          "rules": {
+            "vshow": 1,
+            "disabled": 1,
+            "orderfromleft": 1,
+            "delete_button_msg": 2
+          }
+        },
+        {
+          "type": "pay_button",
+          "value": "繳費單",
+          "payment_form": {
+            "app_no": "M2021040200",
+            "app_smye": "110",
+            "app_smty": "1",
+            "plate_number": "NBP7112",
+            "app_pass_type": "M",
+            "app_identity": "2",
+            "title": "場地清潔費500元",
+            "price": "500",
+            "button_value": "產生繳費單PDF",
+            "src": "./../kernel/dyupass_payfee.php"
+          },
+          "rules": {
+            "vshow": 1,
+            "disabled": 1,
+            "orderfromleft": 2,
+            "payment_button_msg": 3
+          }
+        },
+        {
+          "type": "reapp_button",
+          "value": "續辦",
+          "plate_number": "NBP7112",
+          "vehicle_category": "2",
+          "rules": {
+            "vshow": 1,
+            "disabled": 0,
+            "orderfromleft": 3,
+            "reapp_button_msg": 0
+          }
+        }
+      ]
+    },
+    {
+      "list_data": {
+        "data": "110/1 APY2360",
+        "app_no": "C2021040007",
+        "plate_number": "APY2360",
+        "vehicle_category": "1",
+        "app_smye": "110",
+        "app_smty": "1",
+        "app_pass_type": "C",
+        "app_date": "2021-04-16 13:42:53",
+        "todo_flag": "1",
+        "todo_date": "2021-05-11 13:18:04",
+        "pay_flag": "0",
+        "pay_date": "",
+        "payment_start_date": "2022-06-01 00:00:00",
+        "payment_end_date": "2022-06-30 23:59:00",
+        "app_identity": "2",
+        "check_reason": [
+          {
+            "sno": 1,
+            "check_reason": "繳費時間：110年06月01日至110年06月30日24：00止",
+            "contact_info": " ",
+            "check_date": "2021-04-16 13:42:53"
+          }
+        ]
+      },
+      "button": [
+        {
+          "type": "del_button",
+          "value": "刪除",
+          "app_no": "C2021040007",
+          "src": "./../kernel/dyupass_apped_list_save.php",
+          "rules": {
+            "vshow": 1,
+            "disabled": 0,
+            "orderfromleft": 1,
+            "delete_button_msg": 0
+          }
+        },
+        {
+          "type": "pay_button",
+          "value": "繳費單",
+          "payment_form": {
+            "app_no": "C2021040007",
+            "app_smye": "110",
+            "app_smty": "1",
+            "plate_number": "APY2360",
+            "app_pass_type": "C",
+            "app_identity": "2",
+            "title": "場地清潔費3000元",
+            "price": "3000",
+            "button_value": "產生繳費單PDF",
+            "src": "./../kernel/dyupass_payfee.php"
+          },
+          "rules": {
+            "vshow": 1,
+            "disabled": 0,
+            "orderfromleft": 2,
+            "payment_button_msg": 0
+          }
+        },
+        {
+          "type": "reapp_button",
+          "value": "續辦",
+          "plate_number": "APY2360",
+          "vehicle_category": "1",
+          "rules": {
+            "vshow": 1,
+            "disabled": 0,
+            "orderfromleft": 3,
+            "reapp_button_msg": 0
+          }
+        }
+      ]
+    }
+  ]
+}
